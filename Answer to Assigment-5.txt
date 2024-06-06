@@ -1,0 +1,118 @@
+### Installation of VS Code on Windows 11
+
+1. **Download VS Code:**
+   - Visit the [Visual Studio Code website](https://code.visualstudio.com/).
+   - Click on the "Download for Windows" button.
+
+2. **Install VS Code:**
+   - Once the installer is downloaded, open it.
+   - Follow the prompts in the installation wizard:
+     - Accept the agreement.
+     - Choose the installation location.
+     - Select additional tasks (like creating a desktop icon).
+   - Click "Install" to complete the process.
+
+### First-time Setup
+
+1. **Launch VS Code:**
+   - Open VS Code from the Start menu or desktop shortcut.
+
+2. **Initial Configurations:**
+   - **Theme:** Go to File > Preferences > Color Theme and choose a theme.
+   - **Font Size:** File > Preferences > Settings > Text Editor > Font > Font Size.
+   - **Extensions:** Install essential extensions from the Extensions view (Ctrl+Shift+X):
+     - Prettier - Code formatter
+     - ESLint
+     - Live Server (for web development)
+     - Python (if coding in Python)
+     - GitLens
+
+### User Interface Overview
+
+- **Activity Bar:** Located on the far left, it allows you to switch between views (Explorer, Search, Source Control, Run, Extensions).
+- **Side Bar:** Displays different views and panels based on the selected Activity Bar icon (e.g., file explorer, search results).
+- **Editor Group:** The main area where you open and edit your files.
+- **Status Bar:** Located at the bottom, it shows information about the current file and workspace (e.g., line number, Git branch, errors).
+
+### Command Palette
+
+- **Accessing the Command Palette:**
+  - Press `Ctrl+Shift+P` or `F1`.
+- **Common Tasks:**
+  - Open a file: `File: Open File`
+  - Save all files: `File: Save All`
+  - Install extensions: `Extensions: Install Extensions`
+  - Open terminal: `Terminal: Create New Integrated Terminal`
+
+### Extensions in VS Code
+
+- **Role of Extensions:** Enhance the functionality of VS Code by adding features like language support, themes, and tools.
+- **Finding and Installing Extensions:**
+  - Open the Extensions view (Ctrl+Shift+X).
+  - Search for the desired extension.
+  - Click "Install."
+- **Managing Extensions:**
+  - Go to the Extensions view.
+  - Click on the gear icon next to an extension to disable, uninstall, or configure it.
+
+- **Essential Extensions for Web Development:**
+  - Prettier
+  - ESLint
+  - Live Server
+  - HTML Snippets
+  - JavaScript (ES6) code snippets
+
+### Integrated Terminal
+
+- **Opening the Integrated Terminal:**
+  - Go to View > Terminal or press `Ctrl+`` (backtick).
+- **Advantages:**
+  - Access terminal directly within the VS Code window.
+  - Easily run commands, scripts, and manage version control without leaving the editor.
+
+### File and Folder Management
+
+- **Creating Files/Folders:**
+  - Right-click in the Explorer sidebar and select "New File" or "New Folder."
+- **Opening Files/Folders:**
+  - Drag and drop files/folders into the editor.
+  - Use `File > Open File` or `File > Open Folder`.
+- **Navigating:**
+  - Use the Explorer sidebar.
+  - Use `Ctrl+P` to quickly open files by typing their name.
+
+### Settings and Preferences
+
+- **Accessing Settings:**
+  - Go to File > Preferences > Settings or press `Ctrl+,`.
+- **Examples of Customizations:**
+  - **Change Theme:** File > Preferences > Color Theme.
+  - **Change Font Size:** File > Preferences > Settings > Text Editor > Font > Font Size.
+  - **Change Keybindings:** File > Preferences > Keyboard Shortcuts.
+
+### Debugging in VS Code
+
+1. **Setup:**
+   - Open the file you want to debug.
+   - Set breakpoints by clicking on the left margin next to the line numbers.
+2. **Starting Debugging:**
+   - Go to Run > Start Debugging or press `F5`.
+3. **Key Features:**
+   - **Breakpoints:** Pause program execution at specific points.
+   - **Watch:** Monitor variables and expressions.
+   - **Call Stack:** See the call stack of the current execution.
+   - **Variables:** Inspect variable values.
+
+### Using Source Control
+
+1. **Integrate Git:**
+   - Install Git from [Git's official site](https://git-scm.com/).
+   - Open VS Code and go to the Source Control view (Ctrl+Shift+G).
+2. **Initializing a Repository:**
+   - Click "Initialize Repository."
+3. **Making Commits:**
+   - Stage changes by clicking the "+" icon next to the files.
+   - Enter a commit message and click the checkmark icon.
+4. **Pushing Changes to GitHub:**
+   - Use the terminal to run `git remote add origin <repository-url>` and `git push -u origin master`.
+
